@@ -1,70 +1,183 @@
+# Qiscus - Web Developer Intern Technical Test
+- Name : Arief Rahman
+- Email : arieeefrahman@gmail.com
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and TailwindCSS.
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Diagram
+![diagram](diagram.jpg)
 
-### `npm test`
+# Entity Relationship Diagram
+![erd](erd.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Desktop View
+![desktop-view-chat-1](desktop-view-room-chat-1.png)
+![desktop-view-chat-2](desktop-view-room-chat-2.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Mobile View
+![mobile-first-view](mobile-first-view.png)
+![mobile-view](mobile-view.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# JSON Data
+```json
+{
+    "results": [
+      {
+        "room": {
+          "name": "Product A",
+          "type": "personal",
+          "id": 12456,
+          "image_url": "https://picsum.photos/id/237/200/300",
+          "participant": [
+            {
+              "id": "agent@mail.com",
+              "name": "Agent A",
+              "role": 1
+            },
+            {
+              "id": "customer@mail.com",
+              "name": "King Customer",
+              "role": 2
+            }
+          ]
+        },
+        "comments": [
+          {
+            "id": 885512,
+            "type": "text",
+            "message": "Selamat malam",
+            "sender": "customer@mail.com",
+            "timestamp": "2024-10-08T19:30:00Z"
+          },
+          {
+            "id": 885513,
+            "type": "text",
+            "message": "Malam",
+            "sender": "agent@mail.com",
+            "timestamp": "2024-10-08T19:31:00Z"
+          },
+          {
+            "id": 885514,
+            "type": "text",
+            "message": "Ada yang bisa saya bantu?",
+            "sender": "agent@mail.com",
+            "timestamp": "2024-10-08T19:31:30Z"
+          },
+          {
+            "id": 885515,
+            "type": "text",
+            "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal",
+            "sender": "customer@mail.com",
+            "timestamp": "2024-10-08T19:32:00Z"
+          },
+          {
+            "id": 885516,
+            "type": "text",
+            "message": "Baik, silahkan kirimkan lampiran bukti pembayarannya",
+            "sender": "agent@mail.com",
+            "timestamp": "2024-10-08T19:32:30Z"
+          },
+          {
+            "id": 885517,
+            "type": "image",
+            "message": "Ini bukti pembayarannya",
+            "sender": "customer@mail.com",
+            "timestamp": "2024-10-08T19:33:00Z",
+            "file_url": "https://picsum.photos/id/1015/400/300",
+            "file_name": "bukti_pembayaran.jpg"
+          },
+          {
+            "id": 885518,
+            "type": "pdf",
+            "message": "Untuk referensi, mungkin Anda bisa melihat dokumen ini terlebih dahulu",
+            "sender": "agent@mail.com",
+            "timestamp": "2024-10-08T19:34:00Z",
+            "file_url": "https://example.com/panduan_bayar.pdf",
+            "file_name": "panduan_bayar.pdf"
+          },
+          {
+            "id": 885519,
+            "type": "video",
+            "message": "Ini adalah video tutorial pembayaran di aplikasi",
+            "sender": "agent@mail.com",
+            "timestamp": "2024-10-08T19:35:00Z",
+            "thumbnail_url": "./bigbunny-thumbnail.png",
+            "file_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "file_name": "tutorial_video.mp4"
+          }
+        ]
+      },
+      {
+        "room": {
+          "name": "FJB Musang Lokal",
+          "type": "group",
+          "id": 12457,
+          "image_url": "https://picsum.photos/id/1018/200/300",
+          "participant": [
+            {
+              "id": "admin@mail.com",
+              "name": "Admin",
+              "role": 0
+            },
+            {
+              "id": "agent_b@mail.com",
+              "name": "Pak Dengklek",
+              "role": 1
+            },
+            {
+              "id": "customer@mail.com",
+              "name": "King Customer",
+              "role": 2
+            },
+            {
+              "id": "pakslengki@mail.com",
+              "name": "Slengkiii",
+              "role": 3
+            }
+          ]
+        },
+        "comments": [
+          {
+            "id": 885520,
+            "type": "text",
+            "message": "halo pak, musangnya ready?",
+            "sender": "customer@mail.com",
+            "timestamp": "2024-10-08T20:00:00Z"
+          },
+          {
+            "id": 885521,
+            "type": "image",
+            "message": "ready mas,, saya ada dua umure masih 2 bulan,",
+            "sender": "agent_b@mail.com",
+            "timestamp": "2024-10-08T20:01:00Z",
+            "file_url": "https://cdn.antarafoto.com/cache/1200x800/2022/01/25/potensi-bisnis-budidaya-musang-pandan-y38x-dom.jpg",
+            "file_name": "bukti_pembayaran.jpg"
+          },
+          {
+            "id": 885539,
+            "type": "text",
+            "message": "itu yang kiri harganya berapaan pak?",
+            "sender": "customer@mail.com",
+            "timestamp": "2024-10-08T20:02:00Z"
+          },
+          {
+            "id": 885540,
+            "type": "text",
+            "message": "500 aja mas",
+            "sender": "agent_b@mail.com",
+            "timestamp": "2024-10-08T20:10:20Z"
+          }
+        ]
+      }
+    ]
+  }
+```
