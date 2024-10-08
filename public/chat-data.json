@@ -1,0 +1,151 @@
+{
+    "results": [
+      {
+        "room": {
+          "name": "Product A",
+          "type": "personal",
+          "id": 12456,
+          "image_url": "https://picsum.photos/id/237/200/300",
+          "participant": [
+            {
+              "id": "agent@mail.com",
+              "name": "Agent A",
+              "role": 1
+            },
+            {
+              "id": "customer@mail.com",
+              "name": "King Customer",
+              "role": 2
+            }
+          ]
+        },
+        "comments": [
+          {
+            "id": 885512,
+            "type": "text",
+            "message": "Selamat malam",
+            "sender": "customer@mail.com",
+            "timestamp": "2024-10-08T19:30:00Z"
+          },
+          {
+            "id": 885513,
+            "type": "text",
+            "message": "Malam",
+            "sender": "agent@mail.com",
+            "timestamp": "2024-10-08T19:31:00Z"
+          },
+          {
+            "id": 885514,
+            "type": "text",
+            "message": "Ada yang bisa saya bantu?",
+            "sender": "agent@mail.com",
+            "timestamp": "2024-10-08T19:31:30Z"
+          },
+          {
+            "id": 885515,
+            "type": "text",
+            "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal",
+            "sender": "customer@mail.com",
+            "timestamp": "2024-10-08T19:32:00Z"
+          },
+          {
+            "id": 885516,
+            "type": "text",
+            "message": "Baik, silahkan kirimkan lampiran bukti pembayarannya",
+            "sender": "agent@mail.com",
+            "timestamp": "2024-10-08T19:32:30Z"
+          },
+          {
+            "id": 885517,
+            "type": "image",
+            "message": "Ini bukti pembayarannya",
+            "sender": "customer@mail.com",
+            "timestamp": "2024-10-08T19:33:00Z",
+            "file_url": "https://picsum.photos/id/1015/400/300",
+            "file_name": "bukti_pembayaran.jpg"
+          },
+          {
+            "id": 885518,
+            "type": "pdf",
+            "message": "Untuk referensi, mungkin Anda bisa melihat dokumen ini terlebih dahulu",
+            "sender": "agent@mail.com",
+            "timestamp": "2024-10-08T19:34:00Z",
+            "file_url": "https://example.com/panduan_bayar.pdf",
+            "file_name": "panduan_bayar.pdf"
+          },
+          {
+            "id": 885519,
+            "type": "video",
+            "message": "Ini adalah video tutorial pembayaran di aplikasi",
+            "sender": "agent@mail.com",
+            "timestamp": "2024-10-08T19:35:00Z",
+            "thumbnail_url": "./bigbunny-thumbnail.png",
+            "file_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "file_name": "tutorial_video.mp4"
+          }
+        ]
+      },
+      {
+        "room": {
+          "name": "FJB Musang Lokal",
+          "type": "group",
+          "id": 12457,
+          "image_url": "https://picsum.photos/id/1018/200/300",
+          "participant": [
+            {
+              "id": "admin@mail.com",
+              "name": "Admin",
+              "role": 0
+            },
+            {
+              "id": "agent_b@mail.com",
+              "name": "Pak Dengklek",
+              "role": 1
+            },
+            {
+              "id": "customer@mail.com",
+              "name": "King Customer",
+              "role": 2
+            },
+            {
+              "id": "pakslengki@mail.com",
+              "name": "Slengkiii",
+              "role": 3
+            }
+          ]
+        },
+        "comments": [
+          {
+            "id": 885520,
+            "type": "text",
+            "message": "halo pak, musangnya ready?",
+            "sender": "customer@mail.com",
+            "timestamp": "2024-10-08T20:00:00Z"
+          },
+          {
+            "id": 885521,
+            "type": "image",
+            "message": "ready mas,, saya ada dua umure masih 2 bulan,",
+            "sender": "agent_b@mail.com",
+            "timestamp": "2024-10-08T20:01:00Z",
+            "file_url": "https://cdn.antarafoto.com/cache/1200x800/2022/01/25/potensi-bisnis-budidaya-musang-pandan-y38x-dom.jpg",
+            "file_name": "bukti_pembayaran.jpg"
+          },
+          {
+            "id": 885539,
+            "type": "text",
+            "message": "itu yang kiri harganya berapaan pak?",
+            "sender": "customer@mail.com",
+            "timestamp": "2024-10-08T20:02:00Z"
+          },
+          {
+            "id": 885540,
+            "type": "text",
+            "message": "500 aja mas",
+            "sender": "agent_b@mail.com",
+            "timestamp": "2024-10-08T20:10:20Z"
+          }
+        ]
+      }
+    ]
+  }
