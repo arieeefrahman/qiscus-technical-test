@@ -10,7 +10,7 @@ const ChatInterface = () => {
   const chatContainerRef = useRef(null);
 
   useEffect(() => {
-    fetch('/chat-data.json')
+    fetch('/chat_response.json')
       .then(response => response.json())
       .then(data => {
         setChatData(data);
