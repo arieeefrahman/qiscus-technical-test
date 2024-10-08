@@ -1,33 +1,42 @@
 # Qiscus - Web Developer Intern Technical Test
 - Name : Arief Rahman
 - Email : arieeefrahman@gmail.com
-# Getting Started with Create React App
+
+## Table of Contents
+
+- [Run the App](#run-the-app)
+- [Diagram](#diagram)
+- [Entity Relationship Diagram](#entity-relationship-diagram)
+- [Desktop View](#desktop-view)
+- [Mobile View](#mobile-view)
+- [JSON Data](#json-data)
+- [Deployment Link](#deployment-link)
+
+## Run the App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and TailwindCSS.
-
-## Available Scripts
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Diagram
+## Diagram
 ![diagram](diagram.jpg)
 
-# Entity Relationship Diagram
+## Entity Relationship Diagram
 ![erd](erd.jpg)
 
-# Desktop View
+## Desktop View
 ![desktop-view-chat-1](desktop-view-room-chat-1.png)
 ![desktop-view-chat-2](desktop-view-room-chat-2.png)
 
 
-# Mobile View
+## Mobile View
 ![mobile-first-view](mobile-first-view.png)
 ![mobile-view](mobile-view.png)
 
-# JSON Data
+## JSON Data
 ```json
 {
     "results": [
@@ -181,3 +190,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
     ]
   }
 ```
+
+## Deployment Link
+Access the deployed version [here](https://qiscus-technical-test.vercel.app/) or https://qiscus-technical-test.vercel.app/.
